@@ -1,0 +1,8 @@
+# Turn on validation, so we can use import:
+version: ~> 1.0
+
+service:
+- redis-server
+
+script:
+- bundle exec rake test
