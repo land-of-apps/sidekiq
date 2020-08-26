@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'appmap/minitest'
+
 require 'bundler/setup'
 Bundler.require(:default, :test)
 
